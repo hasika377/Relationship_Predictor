@@ -75,7 +75,7 @@ cd Relationship_Predictor
 pip install -r requirements.txt
 
 4. Start the Streamlit app  
-streamlit run Code_File.py
+streamlit run match.py
 
 ---
 
@@ -91,7 +91,7 @@ streamlit run Code_File.py
 
 Relationship_Predictor/
 
-├── Code_File.py                         # Streamlit app for predictions  
+├── match.py                         # Streamlit app for predictions  
 ├── best_model.keras                     # Trained Keras model  
 ├── Assessment - Form Responses.csv      # Survey response dataset  
 ├── requirements.txt                     # Python dependencies  
